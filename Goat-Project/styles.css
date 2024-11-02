@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url('templates/images/cool-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #9ff09dea; 
+}
+
+.container {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.small-image {
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+ul li {
+    margin: 10px 0; 
+}
+
+a {
+    color: #a9bffb; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; /* used to underline the link when you hover above it */
+}
